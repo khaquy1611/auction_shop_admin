@@ -1,0 +1,36 @@
+
+.one-line {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+
+.text-table-row {
+    margin: 0;
+}
+
+.ant-select-selector {
+    height: 40px !important;
+}
+
+.column-2 {
+    max-width: 20vw;
+}
+
+.column-2 {
+    max-width: 10vw;
+}
+
+.column-3 {
+    max-width: 20vw;
+}
+
+.column-4 {
+    max-width: 10vw;
+}
+
+.column-5 {
+    max-width: 20vw;
+}

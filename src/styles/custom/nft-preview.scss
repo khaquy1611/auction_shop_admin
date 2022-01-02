@@ -1,0 +1,69 @@
+.preview {
+  .img-preview {
+    width: 100% !important;
+    height: 200px !important;
+    border-radius: 8px;
+  }
+
+  .name {
+    width: 100%;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #1D2939;
+  }
+
+  .description {
+    width: 100%;
+
+    span {
+      word-wrap: break-word;
+    }
+  }
+
+  .auction-detail {
+    margin-left: 15px;
+    display: block;
+    margin-top: 5px;
+    img {
+      margin-top: -4px;
+      width: 16px;
+      height: 16px;
+    }
+  }
+
+  .prop,
+  .item {
+    width: 100%;
+    margin-left: 15px;
+
+    .url {
+      margin: 5px 0 5px 0;
+    }
+  }
+
+  .btn-remove {
+    color: red;
+    border-color: #FEE4E2;
+  }
+
+  .btn-edit {
+    border: none;
+  }
+
+  .status {
+    position: absolute;
+    color: #F79009;
+    display: block;
+    background: white;
+    border-radius: 4px;
+    width: fit-content;
+    padding: 0 10px;
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+    margin-top: 15px;
+    margin-left: calc(100% - 90px);
+    top: 20px;
+    right: 35px;
+  }
+}

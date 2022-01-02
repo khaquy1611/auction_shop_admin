@@ -1,0 +1,25 @@
+.img-icon-sidebar {
+  width: 16px;
+  height: 16px;
+  margin-top: 12px;
+  margin-right: 24px;
+}
+.img-icon-sidebar.backup {
+  height: 12px;
+  margin-top: 14px;
+}
+.img-icon-sidebar.db {
+  margin-top: 12px;
+}
+.img-icon-sidebar.email {
+  margin-top: 14px;
+  height: 12px;
+}
+.img-icon-sidebar.no-sub {
+  margin-top: -4px;
+}
+.ant-menu-inline-collapsed {
+  .sidebar-text {
+    margin-left: 10px;
+  }
+}

@@ -1,0 +1,80 @@
+.nft-item {
+  color: #212121;
+  width: 32.333%;
+  display: block;
+  float: left;
+  cursor: pointer;
+  border-radius: 12px;
+  margin-right: 1%;
+  margin-bottom: 10px;
+  // height: 235px;
+
+  img {
+    margin: 0 auto 5px;
+    width: 100%;
+    height: 180px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    object-fit:cover
+  }
+
+  .price {
+    .img-icon {
+      width: 20px;
+      height: 20px;
+    }
+  }
+
+  .status {
+    position: absolute;
+    color: #F79009;
+    display: block;
+    background: white;
+    border-radius: 4px;
+    width: fit-content;
+    padding: 0 10px;
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+    margin-top: 15px;
+    margin-left: calc(32.333% - 20%);  
+  }
+
+  .name {
+    margin-left: 2%;
+    margin-bottom: 10px;
+    font-size: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .end {
+    margin-left: 2%;
+    display: block;
+    margin-top: 5px;
+    img {
+      width: 16px;
+      height: 16px;
+    }
+  }
+
+  .video {
+    width: 100% !important;
+    height: 180px !important;
+  }
+}
+
+.nft-item:hover {
+  box-shadow: 0 0 11px rgba(149, 111, 231, .8);
+}
+
+.nft-item.active {
+  box-shadow: 0 0 5px rgba(252, 2, 77, 0.8);
+}
+
+@media (min-width:1500px) {
+  .nft-item {
+    width: 24%;
+  }
+}

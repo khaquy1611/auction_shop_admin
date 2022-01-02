@@ -1,0 +1,130 @@
+@import "sidebar";
+@import "nft-item";
+@import "nft-create";
+@import "statistics";
+@import "nft-preview";
+
+.no-border {
+    border: none;
+}
+.float-right {
+    float: right;
+}
+.ant-form-item-label > label,
+.description {
+    color: #777E90;
+}
+.gx-app-logo-content-bg:before {
+    background: none !important;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.border-50 {
+    border-radius: 50%;
+}
+
+.border-5 {
+    border-radius: 5%;
+}
+
+.ant-upload-list-item-card-actions {
+    margin-top: 14px;
+
+    svg {
+        color: red;
+    }
+}
+
+.nft-url-item {
+    cursor: pointer;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #1849A9;
+
+    span {
+        text-decoration: underline;
+    }
+}
+
+.danger {
+    color: red;
+}
+
+.success {
+    color: green
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-row-reverse {
+    flex-direction: row-reverse;
+}
+
+.flex-1 {
+    flex: 1
+}
+
+.text-center {
+    text-align: center
+}
+
+.item-center {
+    align-items: center;
+}
+
+.saperator {
+    height: 1px;
+    background-color: '#ccc';
+}
+
+.mr-5 {
+    margin-right: 5px !important;
+}
+
+.mr-10 {
+    margin-right: 10px !important;
+}
+
+.ml-5 {
+    margin-left: 5px !important;
+}
+
+.ml-10 {
+    margin-left: 5px !important;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.no-margin {
+    margin: 0 !important
+}
+
+.loading {
+    position: absolute;
+    top: "50%";
+    z-index: 999;
+}
+
+.one-line {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}

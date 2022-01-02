@@ -1,0 +1,24 @@
+.nft-create {
+  .ant-form-item {
+    display: block;
+  }
+
+  .properties,
+  .sub-item {
+    width: 100%;
+    display: inline-flex;
+    margin-top: 20px;
+
+    h4 {
+      margin-top: 8px;
+    }
+
+    button {
+      margin-left: auto;
+    }
+  }
+
+  .img-icon {
+    width: 20px;
+  }
+}
